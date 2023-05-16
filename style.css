@@ -1,6 +1,6 @@
 * {
     padding: 0;
-    margin: 0 auto;
+    margin: 0px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
@@ -41,28 +41,28 @@ nav {
     transition: 1s;
 }
 
+/*CONTAINER GERAL*/
 .container {
     margin: 20px;
 }
 
-
+/*CONTAINER-TOP 1*/
 .container-top{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap:150px;
 }
 
+/*MARGIN BOTTOM DO H1 PARA O TEXTO*/
 .container-top h1{
     margin-bottom: 20px;
 }
 
-.mude-energia-solar {
-    color: #0B75C7;
-}
 
 .card-box-container {
     display: flex;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 .card-box {
@@ -72,7 +72,7 @@ nav {
     margin: 40px;
     border-radius: 50px;
     background: #FDCD60;
-    box-shadow:  5px 5px 0px #facb5f,-5px -5px 0px #ffcf61;
+    box-shadow:  6px 6px 12px #e4b956,-6px -6px 12px #ffe26a;
 }
 
 .card-box-texto {
@@ -81,6 +81,46 @@ nav {
 
 .card-box-texto h1 {
     font-weight: 500;
+}
+
+/*CONTAINER-TOP 2*/
+.container-top-2{
+    display: flex;
+    justify-content: center;
+    gap:150px;
+    margin-left: 125px;
+    margin-bottom: 250px;
+}
+
+/*MARGIN BOTTOM DO H1 PARA O TEXTO*/
+.container-top-2 h1{
+    margin-bottom: 20px;
+}
+
+/*MARGIN BOTTOM DO H1 PARA O TEXTO*/
+.container-impactos h1{
+    margin-bottom: 20px;
+}
+
+/*MARGIN BOTTOM DO H1 PARA O TEXTO*/
+.container-impactos-2 h1{
+    margin-bottom: 20px;
+}
+
+.container-impactos {
+    display: inline-block;
+    margin-left: 550px;
+
+}
+
+.container-impactos-2 {
+    display: inline-block;
+    margin-left: 850px;
+}
+
+/*TEXTO EM AZUL EM CIMA DOS CONTAINERS*/
+.texto-azul {
+    color: #0B75C7;
 }
 
 
