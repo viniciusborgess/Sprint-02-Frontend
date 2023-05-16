@@ -1,6 +1,6 @@
 * {
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
@@ -41,64 +41,44 @@ nav {
     transition: 1s;
 }
 
-.container-top { /*Tudo do container*/
-    float: left;
-    position: relative;
-    margin-left: 250px;
-    margin-top: 50px;
+.container {
+    margin: 20px;
 }
 
-.container-top h1 { /*Esqueça a conta de luz alta!*/
-    font-weight: 400;
+
+.container-top{
+    display: flex;
+    justify-content: space-between;
+    gap:150px;
 }
 
-.mude-energia-solar { /*Mude para energia solar em 2023!*/
-    color:  #0B75C7;
+.container-top h1{
+    margin-bottom: 20px;
 }
 
-.container-top-textos {
-    margin-top: 30px;
-    margin-bottom: 600px;
-}
-
-.foto-painel {
-    float: right;
-    margin-bottom: 400px;
-    margin-right: 400px;
+.mude-energia-solar {
+    color: #0B75C7;
 }
 
 .card-box-container {
-    
+    display: flex;
+    justify-content: center;
 }
-
 
 .card-box {
-    width: 340px;
+    width: 349px;
     height: 337px;
-    clear: both;
-    position: relative;
-    bottom: 400px;
-    margin-left: 260px;
+    display: inline-block;
+    margin: 40px;
     border-radius: 50px;
     background: #FDCD60;
-    box-shadow:  5px 5px 10px #facb5f,
-             -5px -5px 10px #ffcf61;
+    box-shadow:  5px 5px 0px #facb5f,-5px -5px 0px #ffcf61;
 }
 
-.card-box-textos {
-    position: relative;
-    top: 60px;
-    left: 60px;
+.card-box-texto {
+    padding: 25px;
 }
 
-.texto-card-top{
-    position: absolute;
-    font-weight: 600;
-}
-
-.texto-card-bottom {
-    position: absolute;
-    margin-top: 40px;
-    width: 250px;
-    height: 90px;
+.card-box-texto h1 {
+    font-weight: 500;
 }
