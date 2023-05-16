@@ -1,0 +1,33 @@
+.container-impactos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.texto-impactos-2 {
+    margin-left: 520px;
+    margin-bottom: 320px;
+}
+
+
+/*MARGIN BOTTOM DO H1 PARA O TEXTO*/
+.container-impactos h1{
+    margin-bottom: 20px;
+}
+
+
+.foto-triste{
+    width: 242px;
+    position: relative;
+    left: 370px;
+    bottom: 650px;
+}
+
+.foto-feliz {
+    position: relative;
+    margin-right: 30px;
+    width: 242px;
+    left: 500px;
+    top: 60px;
+}

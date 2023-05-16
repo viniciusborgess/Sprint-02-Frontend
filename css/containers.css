@@ -1,0 +1,31 @@
+/*CONTAINER GERAL*/
+.container {
+    margin: 20px;
+}
+
+/*CONTAINER-TOP 1*/
+.container-top{
+    display: flex;
+    justify-content: center;
+    gap:150px;
+}
+
+/*MARGIN BOTTOM DO H1 PARA O TEXTO*/
+.container-top h1{
+    margin-bottom: 20px;
+}
+
+
+/*CONTAINER-TOP 2*/
+.container-top-2{
+    display: flex;
+    justify-content: center;
+    gap:150px;
+    margin-left: 125px;
+    margin-bottom: 200px;
+}
+
+/*MARGIN BOTTOM DO H1 PARA O TEXTO*/
+.container-top-2 h1{
+    margin-bottom: 20px;
+}

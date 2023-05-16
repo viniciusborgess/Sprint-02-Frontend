@@ -1,0 +1,23 @@
+.card-box-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.card-box {
+    width: 349px;
+    height: 337px;
+    display: inline-block;
+    margin: 40px;
+    border-radius: 50px;
+    background: #FDCD60;
+    box-shadow:  6px 6px 12px #e4b956,-6px -6px 12px #ffe26a;
+}
+
+.card-box-texto {
+    padding: 25px;
+}
+
+.card-box-texto h1 {
+    font-weight: 500;
+}
