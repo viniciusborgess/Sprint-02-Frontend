@@ -12,6 +12,12 @@
     border-radius: 50px;
     background: #FDCD60;
     box-shadow:  6px 6px 12px #e4b956,-6px -6px 12px #ffe26a;
+    transition: 0.5s;
+}
+
+.card-box:hover {
+    transform: scale(105%);
+    transition: 0.5s;
 }
 
 .card-box-texto {

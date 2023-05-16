@@ -24,6 +24,12 @@ nav {
     padding-left: 20px;
     color: rgb(0, 0, 0);
     text-decoration: none;
+    transition: .6s;
+}
+
+.nav-itens>li>:hover {
+    color: #2D38FF;
+    transition: .6s;
 }
 
 .login {
@@ -40,6 +46,8 @@ nav {
     background-color:#00010c;
     transition: 1s;
 }
+
+
 
 
 /*TEXTO EM AZUL EM CIMA DOS CONTAINERS*/

@@ -13,7 +13,7 @@
 
 /*MARGIN BOTTOM DO H1 PARA O TEXTO*/
 .container-impactos h1{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 
@@ -21,7 +21,13 @@
     width: 242px;
     position: relative;
     left: 370px;
-    bottom: 650px;
+    bottom: 690px;
+    transition: 0.8s;
+}
+
+.foto-triste:hover{
+    transform: scale(110%);
+    transition: 0.8s;
 }
 
 .foto-feliz {
@@ -29,5 +35,11 @@
     margin-right: 30px;
     width: 242px;
     left: 500px;
-    top: 60px;
+    top: 30px;
+    transition: 0.8s;
+}
+
+.foto-feliz:hover {
+    transform: scale(110%);
+    transition: 0.8s;
 }
