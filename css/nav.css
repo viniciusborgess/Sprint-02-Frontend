@@ -49,6 +49,7 @@ nav {
 .login:hover {
     background-color:#00010c;
     transition: 1s;
+    transform: scale(110%);
 }
 
 

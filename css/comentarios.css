@@ -1,0 +1,29 @@
+.texto-azul-comentarios {
+    font-size: 15px;
+    color: #0B75C7;
+}
+
+.container-comentarios {
+    display: flex;
+    margin-top: 200px;
+    justify-content: center;
+    gap: 250px;
+}
+
+.container-comentarios-bloco2 h1 {
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.comentarios-texto-principal {
+    margin-bottom: 20px;
+}
+
+.avaliacoes {
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.nome-comentarios {
+    font-size: 18px;
+}
