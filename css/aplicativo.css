@@ -9,11 +9,6 @@
     justify-content: center;
 }
 
-.img-aplicativo {
-    display: flex;
-    justify-content: center;
-}
-
 .textos-aplicativo {
     display: flex;
     flex-direction: column;
@@ -55,7 +50,7 @@
 
 
 .container-textos-top > div ul {
-    gap: 40px;
+    gap: 70px;
 }
 
 .container-textos-bottom ul {
@@ -67,4 +62,5 @@
     position: relative;
     top: 60px;
 }
+
 
