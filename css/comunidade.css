@@ -21,6 +21,12 @@
 .container-img-comunidade {
     display: flex;
     justify-content: center;
+    transition: 1s;
+}
+
+.container-img-comunidade:hover {
+    transform: scale(90%);
+    transition: 1s;
 }
 
 .container-comunidade ul {
@@ -76,3 +82,4 @@
     transition: 0.5s;
     transform: scale(110%);
 }
+

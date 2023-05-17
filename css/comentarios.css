@@ -27,3 +27,13 @@
 .nome-comentarios {
     font-size: 18px;
 }
+
+.container-comentarios-bloco1 {
+    transition: 1s;
+}
+
+.container-comentarios-bloco1:hover {
+    transform: scale(90%);
+    transition: 1s;
+}
+

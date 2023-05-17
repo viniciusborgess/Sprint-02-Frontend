@@ -63,4 +63,11 @@
     top: 60px;
 }
 
+.container-img:hover {
+    transform: scale(105%);
+    transition: 1.3s;
+}
+.container-img {
+    transition: 1.3s;
+}
 
