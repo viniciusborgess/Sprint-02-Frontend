@@ -4,7 +4,7 @@
     color: #0B75C7;
 }
 
-.container-aplicativo h1 {
+.container-aplicativo > h1 {
     display: flex;
     justify-content: center;
 }
@@ -21,3 +21,50 @@
     width: 440px;
     height: 575px;
 }
+
+.container-textos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+
+.container-textos-top {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-textos  h1{
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.container-textos ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.container-textos-esquerda {
+    text-align: right;
+}
+
+
+.container-textos-top > div ul {
+    gap: 40px;
+}
+
+.container-textos-bottom ul {
+    flex-direction: row;
+    gap: 60px;
+}
+
+.container-textos-bottom ul li.texto-bottom {
+    position: relative;
+    top: 60px;
+}
+
