@@ -1,0 +1,36 @@
+.container-footer {
+    display: flex;
+    gap: 400px;
+    margin-top: 200px;
+    background-color: #17172E;
+    width: 100%;
+    height: 600px;
+}
+
+.container-footer-bloco2 {
+    display: flex;
+    margin-left: 700px;
+    flex-direction: column;
+    color: #D4D4D4;
+    opacity: 80%;
+}
+
+.container-footer-bloco3 {
+    display: flex;
+    margin-top: 200px;
+}
+
+.container-footer-bloco3 > ul > li > a {
+    color: #ffff;
+    text-decoration: none;
+    opacity: 80%;
+}
+
+.container-footer-bloco3 ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+.container-footer-bloco3 li{
+    margin-top: 10px;
+}
